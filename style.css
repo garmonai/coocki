@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, p {
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.hero {
+    background-color: #6a3d92;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero .title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero .subtitle {
+    font-size: 1.5rem;
+}
+
+.features {
+    background-color: #f3f3f3;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.feature {
+    flex: 1;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    color: #6a3d92;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.feature p {
+    color: #666;
+}
+
+.how-it-works {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.how-it-works h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.steps {
+    list-style: decimal;
+    padding-left: 2rem;
+}
+
+.steps li {
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+/* Отзывы */
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.testimonial {
+    margin-bottom: 2rem;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #666;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.cta {
+    background-color: #6a3d92; 
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-buttons {
+    margin-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4caf50; 
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #388e3c;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-links, .social-media {
+    margin-bottom: 1rem;
+}
+
+.footer-links li, .social-media li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.footer-links a, .social-media a {
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover, .social-media a:hover {
+    color: #4caf50; 
+}
